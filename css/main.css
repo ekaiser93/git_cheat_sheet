@@ -33,6 +33,15 @@ header h1 {
   margin-left: 6em;
 }
 
+@media only screen and (max-width: 1230px) {
+  .blue-table {
+    float: none;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+}
+
 .blue-table h2 {
   margin-top: 0;
   text-align: left;
@@ -63,6 +72,14 @@ header h1 {
   border-spacing: 0;
   width: 40%;
   margin-right: 6em;
+}
+
+@media only screen and (max-width: 1230px) {
+    .red-table {
+    float: none;
+    width: 70%;
+    margin: 0 auto;
+  }
 }
 
 .red-table h2 {
