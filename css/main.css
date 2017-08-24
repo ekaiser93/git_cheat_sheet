@@ -1,1 +1,92 @@
 /* TODO: insert styles here */
+h1 {
+  font-family: 'Lato Black', sans-serif;
+  color: #262626;
+}
+
+h2 {
+  font-family: 'Roboto Condensed Bold', sans-serif;
+  color: #FFFFFF;
+}
+
+h3 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+p {
+  font-family: 'Roboto Light', sans-serif;
+  color: #6e6e6e;
+  font-size: 18px;
+}
+
+header h1 {
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.blue-table {
+  border: solid 2px #4757ff;
+  width: 20em;
+  border-spacing: 0;
+  width: 40%;
+  float: left;
+  margin-left: 6em;
+}
+
+.blue-table h2 {
+  margin-top: 0;
+  text-align: left;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+
+.blue-table th {
+  background-color: #4757ff;
+}
+
+.blue-table p, .blue-table h3 {
+  margin-left: 5%;
+}
+
+.blue-table h3 {
+  color: #4757ff;
+}
+
+.status {
+  border-bottom: solid 2px #4757ff;
+}
+
+.red-table {
+  border: solid 2px #fb4e32;
+  float: right;
+  width: 20em;
+  border-spacing: 0;
+  width: 40%;
+  margin-right: 6em;
+}
+
+.red-table h2 {
+  margin-top: 0;
+  text-align: left;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+
+.red-table h3 {
+  color: #fb4e32;
+}
+
+.red-table th {
+  border-spacing: 0;
+  background-color: #fb4e32;
+}
+
+.red-table p, .red-table h3 {
+  margin-left: 5%;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+
+}
